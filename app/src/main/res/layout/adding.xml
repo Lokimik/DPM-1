@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:contentDescription="@string/content_desc_favicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/gallery_thumb"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="38dp"
+        android:id="@+id/ibIcon" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/ibIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:id="@+id/etTitle"
+        android:hint="@string/edit_text_title" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_below="@+id/etTitle"
+        android:layout_alignLeft="@+id/etTitle"
+        android:layout_alignStart="@+id/etTitle"
+        android:id="@+id/etUser"
+        android:hint="@string/edit_text_user" />
+
+    <TextView
+        android:text="@string/text_view_prefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHint"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:layout_alignBaseline="@+id/etPlace"
+        android:layout_alignBottom="@+id/etPlace"
+        android:layout_alignLeft="@+id/etUser"
+        android:layout_alignStart="@+id/etUser" />
+    <!--android:inputType="textUri" check it-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:ems="10"
+        android:id="@+id/etPlace"
+        android:hint="@string/edit_text_place"
+        android:layout_below="@+id/ibIcon"
+        android:layout_toRightOf="@+id/tvHint"
+        android:layout_toEndOf="@+id/tvHint" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textVisiblePassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:visibility="visible"
+        android:hint="@string/edit_text_password"
+        android:layout_below="@+id/etPlace"
+        android:layout_alignLeft="@+id/tvHint"
+        android:layout_alignStart="@+id/tvHint"
+        android:layout_alignRight="@+id/etPlace"
+        android:layout_alignEnd="@+id/etPlace" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">Pleiad</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_login">This login is contains restricted characters is invalid</string>
+    <string name="error_invalid_password">This password is too simple</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main" translatable="false">Passwords List</string>
+    <string name="content_desc_favicon">Favicon of the site</string>
+    <string name="string_re" translatable="false">Re</string>
+    <string name="option_regenerate">Regenerate</string>
+    <string name="option_edit">Edit</string>
+    <string name="option_delete">Delete</string>
+    <string name="edit_text_title">Title</string>
+    <string name="edit_text_user">User</string>
+    <string name="text_view_prefix" translatable="false">http://www.</string>
+    <string name="edit_text_place">place</string>
+    <string name="edit_text_password">Your password</string>
+    <string name="input_text_user">Username</string>
+    <string name="input_text_password">Password</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="p100perHour">It\'s not strong enough as it doesn\'t survive cracking with speed of 100 passwords per hour</string>
+    <string name="p10perSecond">It\'s not strong enough as it doesn\'t survive cracking with speed of 10 passwords per second</string>
+    <string name="p10KperSecond">It\'s not strong enough as it doesn\'t survive cracking with speed of 10 thousands passwords per second</string>
+    <string name="p10BperSecond">It\'s not strong enough as it doesn\'t survive cracking with speed of 10 billion passwords per second</string>
+    <string name="error_invalid_email">This email is incorrect</string>
+</resources>

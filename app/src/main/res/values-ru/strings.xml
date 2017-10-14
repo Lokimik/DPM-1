@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_desc_favicon">Иконка сайта</string>
+    <string name="option_regenerate">Перегенерировать</string>
+    <string name="option_edit">Изменить</string>
+    <string name="option_delete">Удалить</string>
+    <string name="edit_text_title">Название</string>
+    <string name="edit_text_user">Пользователь</string>
+    <string name="edit_text_place">сайт</string>
+    <string name="edit_text_password">Ваш пароль</string>
+    <string name="input_text_user">Логин</string>
+    <string name="input_text_password">Пароль</string>
+    <string name="action_sign_in">Войдите или зарегистрируйтсь</string>
+    <string name="action_sign_in_short">Войдите</string>
+    <string name="error_field_required">Это поле обязательно</string>
+    <string name="error_incorrect_password">Пароль указан неверно</string>
+    <string name="error_invalid_email">Почта имеет неправильный формат</string>
+    <string name="error_invalid_password">Этот пароль слишком простой</string>
+    <string name="prompt_email">Почта</string>
+    <string name="prompt_login">Логин</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="p100perHour">Этот пароль недостаточно сильный, так как не выдерживает атаку перебором со скоростью 100 паролей в час</string>
+    <string name="p10BperSecond">Этот пароль недостаточно сильный, так как не выдерживает атаку перебором со скоростью 10 биллионов паролей в секунду</string>
+    <string name="p10KperSecond">Этот пароль недостаточно сильный, так как не выдерживает атаку перебором со скоростью 10 тысяч паролей в секунду</string>
+    <string name="p10perSecond">Этот пароль недостаточно сильный, так как не выдерживает атаку перебором со скоростью 10 паролей в секунду</string>
+    <string name="error_invalid_login">В логине используются запрещенные символы</string>
+</resources>

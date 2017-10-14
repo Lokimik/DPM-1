@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="@string/option_regenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRgn"
+        android:background="@android:drawable/screen_background_dark_transparent" />
+
+    <Button
+        android:text="@string/option_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEdit"
+        android:background="@android:drawable/screen_background_dark_transparent" />
+
+    <Button
+        android:text="@string/option_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDelete"
+        android:background="@android:drawable/screen_background_dark_transparent" />
+
+</LinearLayout>
